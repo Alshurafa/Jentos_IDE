@@ -4,7 +4,8 @@ compiler:
   - clang
 deploy:
   provider: releases
-  secure: "rkC1JvR0El/H7Mdvubio0LwtvgNapMSVuQgqts33m3yJ5Nb27k28gOXVgE11VN3d1cik9p0JWiviBqg0hO5tv6q1empkGHxxE4MP7qwpYQexViQddODi4EJxGOgepi0rSGFehMVjY8vGXFdRAmVSIHduXnzrPQNrSzr4mWejO4o="
+  api_key:
+    secure: rkC1JvR0El/H7Mdvubio0LwtvgNapMSVuQgqts33m3yJ5Nb27k28gOXVgE11VN3d1cik9p0JWiviBqg0hO5tv6q1empkGHxxE4MP7qwpYQexViQddODi4EJxGOgepi0rSGFehMVjY8vGXFdRAmVSIHduXnzrPQNrSzr4mWejO4o=
   file:
     - "jentos_exec/JentosIDE"
 #    - Mac OS X file to come after multi OS is granted
