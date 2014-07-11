@@ -10,6 +10,8 @@ script:
   - qmake -project
   - qmake jentos_ide.pro
   - make
+  - cd jentos_exec/
+  - ls
 os:
   - linux
   - osx
