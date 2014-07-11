@@ -2,8 +2,12 @@ language: cpp
 compiler:
   - gcc
   - clang
+deploy:
+  provider: releases
+  api-key: "fe5264a78b1854bad63632815faa9c1a57abe235"
+  file: "jentos_exec/JentosIDE"
+  skip_cleanup: true
 install:
-  - travis setup releases
   - yes | sudo add-apt-repository ppa:ubuntu-sdk-team/ppa
   - sudo apt-get update
   - sudo apt-get install qtcreator libqt5webkit5-dev qtlocation5-dev qtsensors5-dev libxslt-dev libsqlite3-dev libgstreamer-plugins-base0.10-dev
